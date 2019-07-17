@@ -18,14 +18,14 @@
         widget = new YG.Widget("widget-1", {
           width: 800,
           //   height: 800,
-          components: 137, //search box & caption
+          components: 137 + 256 + 64, //search box & caption
           events: {
             onSearchDone: onSearchDone,
             onVideoChange: onVideoChange,
             onCaptionConsumed: onCaptionConsumed
           },
           backgroundColor: "#333",
-          toggleUI: 1,
+          toggleUI: 2,
           captionColor: "white",
           markerColor: "#4CAF50"
         });
